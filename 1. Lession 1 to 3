@@ -1,0 +1,32 @@
+#Lession 1: Say hello to Python
+
+print("Hello, World!")
+
+#Lession 2: Python If-else
+
+
+import math
+import os
+import random
+import re
+import sys
+
+n = int(input().strip())
+
+if n%2==1: # % is for modulus, to take the remain of the dividing 1 numbers 
+    print("Weird")
+elif n%2==0 and (n>= 2 and n<6):
+    print("Not Weird")
+elif n%2==0 and (n>6 and n<21):
+    print("Weird")
+else:
+    print("Not Weird")
+    
+#Lession 3: Division 
+
+a= int(input())
+b= int(input())
+
+print(a//b) # return an integer 
+print(a/b) # return a float 
+    
